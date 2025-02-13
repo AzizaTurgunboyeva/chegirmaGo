@@ -40,7 +40,7 @@ import { Bot } from "./bot/models/bot.model";
 import { OtpModule } from "./otp/otp.module";
 
 import { Otp } from "./otp/models/otp.model";
-import { Car } from "./bot/models/cars.model";
+
 import { SmsModule } from './sms/sms.module';
 
 @Module({
@@ -80,7 +80,6 @@ import { SmsModule } from './sms/sms.module';
         Address,
         Bot,
         Otp,
-        Car
       ],
       autoLoadModels: true,
       sync: { alter: true }, //db bilan bog'lanish
